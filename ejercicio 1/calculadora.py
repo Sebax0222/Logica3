@@ -1,19 +1,19 @@
-def calculadora():
-    num1 = float("Ingrese el primer número: ")
-    num2 = float("Ingrese el segundo número: ")
-    operacion = input("Ingrese la operación (+, -, *, /): ")
+# def calculadora():
+num1 = input("Ingrese el primer número: ")
+num2 = input("Ingrese el segundo número: ")
+operacion = input("Ingrese la operación (+, -, *, /): ")
 
-    if operacion == '+':
-        resultado = num + num2
-    elif operacion == '-':
+if operacion == '+':
+        resultado = num1 + num2
+elif operacion == '-':
         resultado = num1 - num2
-    elif operacion == '*':
+elif operacion == '*':
         resultado = num1 * num2
-    elif operacion == '/':
-        resultado = num / num2
-    else:
-        resultado = "Operación no válida"
+elif operacion == '/':
+        resultado = num1 / num2
+else:
+     resultado = "Operación no válida"
 
-    print("Resultado: "resultado)
+print(f"Resultado: ", resultado)
 
-calculdora()
+# calculadora()
